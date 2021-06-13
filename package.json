@@ -1,0 +1,19 @@
+{
+  "name": "davidamroune_3_10062021",
+  "version": "1.0.0",
+  "description": "P3",
+  "main": "index.js",
+  "scripts": {
+    "sass":
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidAmroune/DavidAmroune_3_10062021.git"
+  },
+  "author": "david",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidAmroune/DavidAmroune_3_10062021/issues"
+  },
+  "homepage": "https://github.com/DavidAmroune/DavidAmroune_3_10062021#readme"
+}
