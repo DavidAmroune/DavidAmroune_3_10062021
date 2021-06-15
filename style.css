@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Shrikhand";
+  src: url("polices/Shrikhand-Regular.ttf") format(truetype);
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("polices/Roboto-Regular.ttf") format(truetype);
+}
+header, footer img h {
+  font-family: "$police-titre", Arial, sans-serif;
+}
+
+body {
+  font-family: "$police-main", Arial, sans-serif;
+}
+
+.container {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5 1fr);
+}
+
+.btn {
+  width: 200px;
+  height: 40px;
+  color: white;
+  background-color: #9356DC;
+  border-radius: 20px;
+}
+
+.head {
+  grid-row-start: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.head__image-index img {
+  width: 150px;
+}
+
+.localisation {
+  grid-row-start: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: #DCDCDC;
+}
+.localisation__icone {
+  width: 150px;
+}
+
+.presentation {
+  grid-row-start: 3;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+}
+.presentation p {
+  font-size: 1.2em;
+}
+
+.description {
+  grid-row-start: 4;
+}
+
+.restaurant {
+  grid-row-start: 5;
+}
+
+/*# sourceMappingURL=style.css.map */

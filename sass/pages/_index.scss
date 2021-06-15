@@ -1,0 +1,47 @@
+.head{
+    grid-row-start: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    &__image-index img{
+    width: 150px;   
+    }
+}    
+    
+
+.localisation{
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: $background-color;
+    &__icone{
+    width: 150px;
+    }
+}
+
+.presentation{
+    grid-row-start: 3;
+    background-color: $ligth-background-color;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+    & p{
+        font-size: 1.2em;
+    }
+}
+
+.description{
+    grid-row-start: 4;
+}
+
+.restaurant{
+    grid-row-start: 5;
+}
+
+
+

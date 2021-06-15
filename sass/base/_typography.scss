@@ -1,0 +1,17 @@
+@font-face {
+    font-family:"Shrikhand" ;
+    src: url("polices/Shrikhand-Regular.ttf") format(truetype);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("polices/Roboto-Regular.ttf") format(truetype);
+}
+
+header, footer img h{
+    font-family: "$police-titre", Arial, sans-serif;
+}
+
+body{
+    font-family: "$police-main", Arial, sans-serif;
+}
