@@ -7,10 +7,11 @@
             <link rel="stylesheet" href="style.css" />
             <title>Ohmyfood</title>
         </head>
+
         <body>
             <div class="container">
-                <header class="head">
-                    <div class="head__image-index">
+                <header class="head head-index">
+                    <div class="head-index__logo">
                         <img src="images/ohmyfood.png" alt="logo" />  
                     </div>
                 </header>
@@ -31,101 +32,143 @@
 
                 <section class="description">
                     <h2>Fonctionnement</h2>
-                    <div class="fonction">1 <i class="fas fa-mobile-alt"></i> Choisissez un restaurant</div >
-                    <div class="fonction">2 <i class="fas fa-list-ul"></i> Composez un menu</div >
-                    <div class="fonction">3 <i style="color: #9356DC;" class="fas fa-store"></i> Déguster au restaurant</div >
+                    <div class="description-alignement">
+                        <div class="description__fonction">
+                            <div class="description__numbers">
+                                1
+                            </div>
+                            
+                            <div class="description__icone">
+                                <i class="fas fa-mobile-alt"></i> 
+                            </div>
+
+                            <div class="description__text">
+                                Choisissez un restaurant
+                            </div>
+                        </div >
+
+                        <div class="description__fonction">
+                            <div class="description__numbers">
+                                2
+                            </div>
+
+                            <div class="description__icone">
+                                <i class="fas fa-list-ul"></i>
+                            </div>
+                            
+                            <div class="description__text">
+                                Composez un menu
+                            </div>
+                        </div >
+
+                        <div class="description__fonction">
+                            <div class="description__numbers">
+                                3
+                            </div>
+
+                            <div class="description__icone description__icone--purple">
+                                <i class="fas fa-store"></i>
+                            </div>
+                            
+                            <div class="description__text">
+                                Dégustez au restaurant
+                            </div>
+                        </div >
+                    </div>
                 </section>
                 
                 <section class="restaurant">
                     <h2>Restaurants</h2>
+                    <div class="restaurant-alignement">
                         <div class="card">
                             <a href="la_palette_du_gout.html">
-                                <div class="card__image">
-                                    <img src="images/la_palette_du_gout.jpg" alt="la palette du gout"  style="width: 200px;height: 150px"/>
-                                </div>
-                            
-                                <div class="card__ajout">
+                               <div class="card__new">
                                     Nouveau
-                                </div>
+                                </div> 
 
+                                <div class="card__image">
+                                    <img src="images/la_palette_du_gout.jpg" alt="la palette du gout" />
+                                </div>
+                                
                                 <div class="card__heading">
-                                    <strong>La palette du goût</strong><br />
-                                            Ménilmontant
-                                </div>
-
-                                <div class="card__like">
-                                    <i class="far fa-heart"></i>
-                                </div>
+                                    <div class="card__text">
+                                        <strong>La palette du goût</strong><br />
+                                            Ménilmontant 
+                                    </div>
+                                    
+                                    <div class="card__like">
+                                        <i class="far fa-heart"></i>
+                                    </div> 
+                                </div>  
                             </a>
                         </div>
 
                         <div class="card">
-                            <a href="la_note_enchante.html">  
-                                <div class="card__image">
-                                    <img src="images/la_note_enchante.jpg" alt="la note enchantée" style="width: 200px;height: 150px" />
-                                </div>
-
-                                <div class="card__ajout">
+                            <a href="la_note_enchante.html">
+                                 <div class="card__new">
                                     Nouveau
+                                </div> 
+
+                                <div class="card__image">
+                                    <img src="images/la_note_enchante.jpg" alt="la note enchantée" />
                                 </div>
 
                                 <div class="card__heading">
-                                    <strong>La note enchantée</strong><br />
-                                            Charonne
-                                </div>
-
-                                <div class="card__like">
-                                    <i class="far fa-heart"></i>
-                                </div>
+                                    <div class="card__text">
+                                        <strong>La note enchantée</strong><br />
+                                                Charonne
+                                    </div>
+                                    
+                                    <div class="card__like">
+                                        <i class="far fa-heart"></i>
+                                    </div>
+                                </div> 
                             </a>
                         </div>
 
                         <div class="card">
                             <a href="a_la_francaise.html">
                                 <div class="card__image">
-                                    <img src="images/a_la_francaise.jpg" alt="a la française"  style="width: 200px;height: 150px"  />
-                                </div>
-
-                                <div class="card__ajout">
-                                    Nouveau
+                                    <img src="images/a_la_francaise.jpg" alt="a la française" />
                                 </div>
 
                                 <div class="card__heading">
-                                    <strong>A la française</strong><br />
-                                            Cité Rouge
-                                </div>
+                                    <div class="card__text">
+                                        <strong>A la française</strong><br />
+                                                Cité Rouge
+                                    </div>
 
-                                <div class="card__like">
-                                    <i class="far fa-heart"></i>
-                                </div>
+                                    <div class="card__like">
+                                        <i class="far fa-heart"></i>
+                                    </div>                            
+                                </div>   
                             </a>
                         </div>
 
                         <div class="card">
                             <a href="le_delice_des_sens.html">
                                 <div class="card__image">
-                                    <img src="images/le_delice_des_sens.jpg" alt="le délice des sens"  style="width: 200px;height: 150px"  />
-                                </div>
-
-                                <div class="card__ajout">
-                                    Nouveau
+                                    <img src="images/le_delice_des_sens.jpg" alt="le délice des sens"  />
                                 </div>
 
                                 <div class="card__heading">
-                                    <strong>Le délice des sens</strong><br />
-                                            Folie-Méricourt
-                                </div>
+                                    <div class="card__text">
+                                        <strong>Le délice des sens</strong><br />
+                                                Folie-Méricourt
+                                        </div>
 
-                                <div class="card__like">
-                                    <i class="far fa-heart"></i>
-                                </div>
+                                     <div class="card__like">
+                                        <i class="far fa-heart"></i>
+                                    </div>    
+                                </div>  
                             </a>
                         </div>
+                    </div>
                 </section>
             </div>
                 
             <footer>
-                <img src="images/ohmyfood@2x.svg" alt="logo" />
+                <img src="images/ohmyfood.png" alt="logo" />
                 <ul>
                     <li><a href="#"><i class="fas fa-utensils"></i> Proposer un restaurant</a></li>
                     <li><a href="#"><i class="fas fa-hands-helping"></i> Devenir partenaire</a></li>

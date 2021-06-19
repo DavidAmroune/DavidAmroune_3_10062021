@@ -1,47 +1,124 @@
-.head{
-    grid-row-start: 1;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    &__image-index img{
-    width: 150px;   
-    }
-}    
+.head-index{
+    @include align-index;
+    height: 5rem;
     
+    &__logo img{
+    width: 150px; 
+    }
+}
 
 .localisation{
-    grid-row-start: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
+    @include align-index;
+    height: 4rem;
     background-color: $background-color;
+   
     &__icone{
     width: 150px;
     }
 }
 
 .presentation{
-    grid-row-start: 3;
     background-color: $ligth-background-color;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+    @include align-index;
     text-align: center;
-    padding: 5%;
+    padding: 3rem;
+    
     & p{
         font-size: 1.2em;
     }
 }
 
 .description{
-    grid-row-start: 4;
+    margin:2rem 1rem 2rem 1rem;
+}
+
+.description-alignement{
+    display: flex;
+    flex-wrap: wrap;
+    
+    .description__fonction{
+    border-radius: 15px;
+    background-color: $ligth-background-color;
+    margin: 1rem 2rem 1rem 0;
+    height: 45px;
+    width: 300px;
+    display:flex;
+    align-items: center;
+    }
+
+    .description__numbers{
+        margin-right: 0.5rem;
+        border-radius: 20px;
+        height: 20px;
+        width: 20px;
+        text-align: center;
+        padding-top:2px;
+        background-color: $primary-color;
+        color: white;
+        position: relative;
+        right: 10px;
+    }
+
+    .description__icone {
+        margin-right: 1rem;
+        color: gray;
+    }
+
+    .description__icone--purple{
+        color: $primary-color;
+    }
+
+    .description__text{
+        font-weight: bold;
+    }
 }
 
 .restaurant{
-    grid-row-start: 5;
+    background-color: $ligth-background-color;
+    padding:1rem;
 }
 
+.restaurant-alignement{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+
+    &__image img{
+        height: 150px;
+        width: 300px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    &__new{
+        background-color: $tertiary-color;
+        color:$dark-color;
+        font-weight: bold;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 80px;
+        margin-top: 10px;
+        margin-left: 210px;
+        position: absolute;  
+    }
+
+    &__heading{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    &__like i{
+        font-size: 1.1em;
+    }    
+}
 
 
