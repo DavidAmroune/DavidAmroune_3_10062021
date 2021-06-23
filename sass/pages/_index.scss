@@ -2,7 +2,7 @@
     @include align-index;
     height: 5rem;
     
-    &__logo img{
+    img{
     width: 150px; 
     }
 }
@@ -23,7 +23,7 @@
     text-align: center;
     padding: 3rem;
     
-    & p{
+    p{
         font-size: 1.2em;
     }
 }

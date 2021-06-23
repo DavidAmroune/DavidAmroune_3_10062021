@@ -4,14 +4,14 @@
 }
 @font-face {
   font-family: "Roboto";
-  src: url("polices/Roboto-Regular.ttf") format(truetype);
+  src: url("polices/Roboto/Roboto-Regular.ttf") format(truetype);
 }
-header img, footer img, h1, h2 {
-  font-family: "$police-titre", Arial, sans-serif;
+head img, footer img, h1, h2 {
+  font-family: "Shrikhand", Arial, sans-serif;
 }
 
 * {
-  font-family: "$police-main", Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
 }
 
 .container {
@@ -35,6 +35,10 @@ a {
   font-size: 1.1em;
 }
 
+.btn-menu {
+  margin: 4vh 15vw 5vh 15vw;
+}
+
 footer {
   background-color: rgba(0, 0, 0, 0.85);
   padding: 1rem;
@@ -51,6 +55,91 @@ footer a {
   color: white;
 }
 
+.head {
+  display: flex;
+  align-items: center;
+  margin: 3vh 3vw 3vh 3vw;
+}
+.head__icone {
+  font-size: 1.2em;
+}
+.head__logo {
+  position: absolute;
+  left: 30vw;
+}
+.head img {
+  width: 180px;
+}
+
+.banniere img {
+  height: 30vh;
+  width: 100%;
+}
+
+.menu {
+  background-color: #f6f6f6;
+  border-radius: 25px 25px 0 0;
+  position: relative;
+  top: -10vh;
+  padding: 1vh 3vw 3vh 3vw;
+}
+.menu__titre {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+  font-size: 1.4em;
+}
+.menu__like {
+  display: flex;
+  align-items: center;
+}
+
+.menu__card h2 {
+  font-weight: normal;
+  border-bottom: 2px solid #99E2D0;
+  padding-bottom: 5px;
+  width: 55px;
+}
+
+.menu__alignement {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu__plat {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  width: 340px;
+  margin-bottom: 2vh;
+  margin-right: 2vw;
+}
+.menu__plat .menu__texte {
+  padding: 8px;
+}
+.menu__plat .menu__prix {
+  display: flex;
+  flex-direction: column-reverse;
+  font-weight: bold;
+  padding: 6px;
+}
+.menu__plat .menu__check {
+  display: flex;
+  color: #99E2D0;
+  background-color: #99E2D0;
+  width: 15%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 10px 10px 0;
+  display: none;
+}
+.menu__plat .menu__check i {
+  background-color: white;
+  border-radius: 20px;
+  font-size: 1.5em;
+}
+
 .head-index {
   display: flex;
   flex-direction: column;
@@ -58,7 +147,7 @@ footer a {
   align-items: center;
   height: 5rem;
 }
-.head-index__logo img {
+.head-index img {
   width: 150px;
 }
 

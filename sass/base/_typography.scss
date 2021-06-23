@@ -5,13 +5,13 @@
 
 @font-face {
     font-family: "Roboto";
-    src: url("polices/Roboto-Regular.ttf") format(truetype);
+    src: url("polices/Roboto/Roboto-Regular.ttf") format(truetype);
 }
 
-header img, footer img, h1, h2 {
-    font-family: "$police-titre", Arial, sans-serif;
+head img, footer img, h1, h2 {
+    font-family: $police-titre, Arial, sans-serif;
 }
 
 *{
-    font-family: "$police-main", Arial, sans-serif;
+    font-family: $police-main, Arial, sans-serif;
 }
