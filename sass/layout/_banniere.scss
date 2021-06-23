@@ -1,4 +1,10 @@
 .banniere img{
         height: 30vh;
         width: 100%;
+        position: relative;
+        bottom: -5vh;
+
+        @media  screen and( min-width: 1024px) {
+            height: 60vh;
+        }
 }

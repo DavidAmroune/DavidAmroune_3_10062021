@@ -1,7 +1,7 @@
 .head{
     display: flex;
     align-items: center;
-    margin: 3vh 3vw 3vh 3vw ;
+    margin: 3vh 3vw -3vh 3vw;
 
     &__icone {
         font-size: 1.2em;
@@ -10,6 +10,11 @@
     &__logo{
         position: absolute;
         left: 30vw;
+
+        @media screen and(min-width: 750px) {
+            position: absolute;
+            left: 40vw;
+        }
     }
 
     img{
