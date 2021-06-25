@@ -4,7 +4,8 @@
   "description": "P3",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./style.css"
+    "sass": "sass --watch ./sass/main.scss:./style.css",
+    "prefix": "postcss ./style.css --use autoprefixer ./prefixed/"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,7 @@
   },
   "author": "david",
   "license": "ISC",
+  "browserslists": "last 4 versions",
   "bugs": {
     "url": "https://github.com/DavidAmroune/DavidAmroune_3_10062021/issues"
   },

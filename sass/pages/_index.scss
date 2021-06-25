@@ -116,9 +116,48 @@
         margin: 10px;
     }
 
-    &__like i{
+    &__like {
         font-size: 1.1em;
     }    
 }
 
+.card__like i{
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+
+    &:hover{
+        &::after{
+            opacity: 1;
+        }
+    }
+    
+    &::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0;
+        background:linear-gradient(to bottom,#FF79DA,#9356DC );
+        transition: ease-in-out 1500ms, 
+   }
+}
+
+.loading{
+   
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 20px solid $background-color;
+    border-top: 20px solid $primary-color;
+    border-radius: 50%;
+    animation: loader 3000ms  ;
+    animation-fill-mode: forwards;
+ 
+}
 

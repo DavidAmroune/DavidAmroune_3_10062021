@@ -1,2 +1,23 @@
 $ligth-background-color: lighten(#DCDCDC, 10%);
 $dark-color: darken( #99E2D0, 40%);
+
+@keyframes loader{
+    0%{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+   
+    100%{
+        transform:rotate(360deg);
+        opacity: 0;
+    }   
+}
+
+@keyframes menu{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
