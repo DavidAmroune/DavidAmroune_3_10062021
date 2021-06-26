@@ -121,43 +121,49 @@
     }    
 }
 
-.card__like i{
-    opacity: 1;
-    z-index: 1;
-    position: relative;
+
+  
+.card__like .far{
+    opacity:1;
+    position:absolute;
+    transition: ease-in 1500ms;
 
     &:hover{
-        &::after{
-            opacity: 1;
-        }
+      opacity:0;
+      z-index: -1;
     }
+  }
+  
+.card__like .fas{
+    position:relative;
+    opacity:0;
+    background: linear-gradient(to bottom,#FF79DA,#9356DC );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    transition: ease-in 1500ms;
     
-    &::after{
-        content: "";
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: -1;
-        opacity: 0;
-        background:linear-gradient(to bottom,#FF79DA,#9356DC );
-        transition: ease-in-out 1500ms, 
-   }
-}
+    &:hover{
+        opacity:1;
+        z-index: 1;
+    }
+} 
+  
+
 
 .loading{
    
     width: 100px;
     height: 100px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
+    position:fixed;
+    top: 30vh;
+    right: 40vw;
     border: 20px solid $background-color;
     border-top: 20px solid $primary-color;
     border-radius: 50%;
-    animation: loader 3000ms  ;
+    animation: loader 1500ms  ;
     animation-fill-mode: forwards;
+    transition-delay: -4s;
  
 }
 
