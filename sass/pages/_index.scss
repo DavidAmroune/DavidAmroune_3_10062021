@@ -126,7 +126,7 @@
 .card__like .far{
     opacity:1;
     position:absolute;
-    transition: ease-in 1500ms;
+    transition:1500ms ease-in ;
 
     &:hover{
       opacity:0;
@@ -141,7 +141,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     color:transparent;
-    transition: ease-in 1500ms;
+    transition:1500ms ease-in ;
     
     &:hover{
         opacity:1;

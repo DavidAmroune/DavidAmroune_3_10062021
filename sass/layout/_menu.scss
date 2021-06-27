@@ -16,6 +16,7 @@
         display: flex;
         align-items: center;
         margin-right: 5vw;
+        cursor: pointer;
 }        
         
 .menu__like .far{
@@ -36,7 +37,7 @@
         background-clip: text;
         -webkit-background-clip: text;
         color:transparent;
-        transition: ease-in 1500ms;
+        transition:1500ms ease-in ;
         
         &:hover{
             opacity:1;
@@ -52,15 +53,15 @@
 }
 
 .menu__card-entree{
-    animation: menu ease-in-out 500ms ;
+    animation: menu 500ms ease-in-out  ;
 }
 
 .menu__card-plat{
-   animation: menu ease-in-out 1500ms;
+    animation: menu 1500ms ease-in-out;
 }
 
 .menu__card-dessert{
-   animation: menu ease-in-out 2500ms;
+    animation: menu 2500ms ease-in-out ;
 }
 
 .menu__alignement{
@@ -83,7 +84,7 @@
     &:hover{ 
         .menu__check{
         opacity: 1;
-        width:20%;
+        width: 20%;
         }
 
         .menu__check i{
@@ -114,7 +115,7 @@
     justify-content: center;
     border-radius: 0px 10px 10px 0;
     opacity:0;
-    width: 1px;
+    width: 1%;
     transition: ease-in-out 500ms;
 
         i{
