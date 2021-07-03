@@ -409,9 +409,8 @@ footer a {
   border: 20px solid #DCDCDC;
   border-top: 20px solid #9356DC;
   border-radius: 50%;
-  animation: loader 1500ms;
+  animation: loader 3000ms;
   animation-fill-mode: forwards;
-  transition-delay: -4s;
 }
 
 /*# sourceMappingURL=style.css.map */

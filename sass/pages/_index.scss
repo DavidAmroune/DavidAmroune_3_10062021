@@ -161,9 +161,6 @@
     border: 20px solid $background-color;
     border-top: 20px solid $primary-color;
     border-radius: 50%;
-    animation: loader 1500ms  ;
+    animation: loader 3000ms;
     animation-fill-mode: forwards;
-    transition-delay: -4s;
- 
 }
-
