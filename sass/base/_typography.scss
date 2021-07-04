@@ -5,13 +5,15 @@
 
 @font-face {
     font-family: "Roboto";
-    src: url("polices/Roboto/Roboto-bold.ttf") format("truetype");
+    src: local( "Roboto-Regular");
 }
-
- .menu h1 {
-    font-family: $police-titre, Arial, sans-serif;
+  
+  
+    .menu h1{
+     font-family: $police-titre, Arial, sans-serif;
 }
 
 *{
     font-family: $police-main, Arial, sans-serif;
 }
+ 
