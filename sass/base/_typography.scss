@@ -1,14 +1,14 @@
 @font-face {
     font-family:"Shrikhand" ;
-    src: url("polices/Shrikhand-Regular.ttf") format(truetype);
+    src: url("polices/Shrikhand-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Roboto";
-    src: url("polices/Roboto/Roboto-Regular.ttf") format(truetype);
+    src: url("polices/Roboto/Roboto-bold.ttf") format("truetype");
 }
 
-head img, footer img, h1, h2 {
+ .menu h1 {
     font-family: $police-titre, Arial, sans-serif;
 }
 

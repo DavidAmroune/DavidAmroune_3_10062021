@@ -138,7 +138,6 @@
     position:relative;
     opacity:0;
     background: linear-gradient(to bottom,#FF79DA,#9356DC );
-    background-clip: text;
     -webkit-background-clip: text;
     color:transparent;
     transition:1500ms ease-in ;
@@ -161,6 +160,6 @@
     border: 20px solid $background-color;
     border-top: 20px solid $primary-color;
     border-radius: 50%;
-    animation: loader 3000ms;
+    animation: loader  3000ms ;
     animation-fill-mode: forwards;
 }

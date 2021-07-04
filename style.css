@@ -25,13 +25,13 @@
 }
 @font-face {
   font-family: "Shrikhand";
-  src: url("polices/Shrikhand-Regular.ttf") format(truetype);
+  src: url("polices/Shrikhand-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Roboto";
-  src: url("polices/Roboto/Roboto-Regular.ttf") format(truetype);
+  src: url("polices/Roboto/Roboto-bold.ttf") format("truetype");
 }
-head img, footer img, h1, h2 {
+.menu h1 {
   font-family: "Shrikhand", Arial, sans-serif;
 }
 
@@ -172,7 +172,6 @@ footer a {
   position: relative;
   opacity: 0;
   background: linear-gradient(to bottom, #FF79DA, #9356DC);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   transition: 1500ms ease-in;
@@ -240,7 +239,6 @@ footer a {
 }
 .menu__plat .menu__check {
   display: flex;
-  color: #99E2D0;
   background-color: #99E2D0;
   align-items: center;
   justify-content: center;
@@ -250,6 +248,7 @@ footer a {
   transition: ease-in-out 500ms;
 }
 .menu__plat .menu__check i {
+  color: #99E2D0;
   background-color: white;
   border-radius: 50%;
   font-size: 1.5em;
@@ -390,7 +389,6 @@ footer a {
   position: relative;
   opacity: 0;
   background: linear-gradient(to bottom, #FF79DA, #9356DC);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   transition: 1500ms ease-in;
