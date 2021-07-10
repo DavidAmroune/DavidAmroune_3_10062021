@@ -15,16 +15,26 @@ $dark-color: darken( #99E2D0, 40%);
         opacity: 0;
     }
 }
+@keyframes index{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity:1;
+    }
+    
+}
 
 @keyframes menu{
     0%{
         opacity: 0;
+        transform: translateY(40px);
     }
-    50%{
-        opacity:.5;
-    }
+    
     100%{
         opacity: 1;
+        transform: translateY(0);
     }
 }
 

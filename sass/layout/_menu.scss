@@ -44,16 +44,22 @@
     width: 55px;
 }
 
-.menu__card:nth-child(1){
-    animation: menu 1000ms ease-in-out  ;
+.menu__plat:nth-child(1){
+    animation: menu 1000ms ease-in  ;
 }
 
-.menu__card:nth-child(2){
-    animation: menu 2000ms ease-in-out;
+.menu__plat:nth-child(2){
+    
+    animation: menu 1500ms ease-in  ;
 }
 
-.menu__card:nth-child(3){
-    animation: menu 3000ms ease-in-out ;
+.menu__plat:nth-child(3){
+    
+    animation: menu 2000ms ease-in   ;
+}
+
+.menu__plat:nth-child(4){
+    animation: menu 2500ms ease-in;
 }
 
 .menu__alignement{
@@ -68,8 +74,7 @@
     background-color: white;
     max-height: 50px;
     border-radius: 10px;
-    min-width: 320px;
-    width: 360px;
+    width:320px;
     margin-bottom: 2vh;
     margin-right: 2vw;
     cursor: pointer;
@@ -108,14 +113,14 @@
     border-radius: 0px 10px 10px 0;
     opacity:0;
     width: 1%;
-    transition: ease-in-out 500ms;
+    transition: ease-in-out 700ms;
 
         i{
             color: $tertiary-color; 
             background-color: white;
             border-radius: 50%;
             font-size: 1.5em;
-            transition: ease-in-out 500ms;
+            transition: ease-in-out 700ms;
               
         }   
     }  
