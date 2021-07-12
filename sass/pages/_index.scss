@@ -28,19 +28,21 @@
     }
 }
 
-.description{
-    margin:2rem 1rem 2rem 1rem;
+.description h2{
+   margin:2rem 1rem 2rem 1rem ;
 }
 
 .description-alignement{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 2rem;
+   
     
     .description__fonction{
     border-radius: 15px;
     background-color: $ligth-background-color;
-    margin: 1rem 2rem 1rem 0;
+    margin: 1rem ;
     height: 45px;
     width: 300px;
     display:flex;
@@ -88,9 +90,8 @@
 .card{
     background-color: white;
     border-radius: 10px;
-    margin-bottom: 2rem;
-    margin-right: 2rem;
-
+    margin: 2rem;
+   
     &__image img{
         height: 150px;
         width: 300px;
@@ -143,7 +144,7 @@
     }
 } 
 
-.container, footer{
+.container-index, .footer-index{
     animation: index 4500ms ease-in;
 }
 

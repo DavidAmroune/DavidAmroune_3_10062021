@@ -20,7 +20,7 @@
     opacity: 1;
   }
 }
-@keyframes menu {
+@keyframes carte {
   0% {
     opacity: 0;
     transform: translateY(40px);
@@ -42,7 +42,7 @@
   font-family: "Shrikhand", Arial, sans-serif;
 }
 
-* {
+body {
   font-family: "Roboto", Arial, sans-serif;
 }
 
@@ -55,6 +55,11 @@
 a {
   color: black;
   text-decoration: none;
+}
+
+* {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .btn {
@@ -145,6 +150,10 @@ footer a {
   height: 100%;
 }
 
+img {
+  object-fit: cover;
+}
+
 .menu {
   background-color: #f6f6f6;
   border-radius: 25px 25px 0 0;
@@ -196,19 +205,19 @@ footer a {
 }
 
 .menu__plat:nth-child(1) {
-  animation: menu 1000ms ease-in;
+  animation: carte 1000ms ease-in;
 }
 
 .menu__plat:nth-child(2) {
-  animation: menu 1500ms ease-in;
+  animation: carte 1500ms ease-in;
 }
 
 .menu__plat:nth-child(3) {
-  animation: menu 2000ms ease-in;
+  animation: carte 2000ms ease-in;
 }
 
 .menu__plat:nth-child(4) {
-  animation: menu 2500ms ease-in;
+  animation: carte 2500ms ease-in;
 }
 
 .menu__alignement {
@@ -302,7 +311,7 @@ footer a {
   font-size: 1.2em;
 }
 
-.description {
+.description h2 {
   margin: 2rem 1rem 2rem 1rem;
 }
 
@@ -310,11 +319,12 @@ footer a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 .description-alignement .description__fonction {
   border-radius: 15px;
   background-color: #f6f6f6;
-  margin: 1rem 2rem 1rem 0;
+  margin: 1rem;
   height: 45px;
   width: 300px;
   display: flex;
@@ -357,8 +367,7 @@ footer a {
 .card {
   background-color: white;
   border-radius: 10px;
-  margin-bottom: 2rem;
-  margin-right: 2rem;
+  margin: 2rem;
 }
 .card__image img {
   height: 150px;
@@ -411,7 +420,7 @@ footer a {
   z-index: 1;
 }
 
-.container, footer {
+.container-index, .footer-index {
   animation: index 4500ms ease-in;
 }
 
