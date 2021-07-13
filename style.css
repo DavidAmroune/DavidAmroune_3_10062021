@@ -42,7 +42,7 @@
   font-family: "Shrikhand", Arial, sans-serif;
 }
 
-body {
+body, .btn {
   font-family: "Roboto", Arial, sans-serif;
 }
 
@@ -232,7 +232,7 @@ img {
   background-color: white;
   max-height: 50px;
   border-radius: 10px;
-  width: 320px;
+  width: 340px;
   margin-bottom: 2vh;
   margin-right: 2vw;
   cursor: pointer;
@@ -295,7 +295,7 @@ img {
   background-color: #DCDCDC;
 }
 .localisation__icone {
-  width: 150px;
+  font-size: 1.4em;
 }
 
 .presentation {
