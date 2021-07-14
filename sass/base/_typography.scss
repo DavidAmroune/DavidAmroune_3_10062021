@@ -1,19 +1,9 @@
-@font-face {
-    font-family:"Shrikhand" ;
-    src: url("polices/Shrikhand-Regular.ttf") format("truetype");
-}
 
-@font-face {
-    font-family: "Roboto";
-    src: local( "Roboto-Regular");
-}
-  
-  
  .menu h1{
      font-family: $police-titre, Arial, sans-serif;
 }
 
-body, .btn{
+body, button{
     font-family: $police-main, Arial, sans-serif;
 }
  

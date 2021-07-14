@@ -30,19 +30,11 @@
     transform: translateY(0);
   }
 }
-@font-face {
-  font-family: "Shrikhand";
-  src: url("polices/Shrikhand-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Roboto";
-  src: local("Roboto-Regular");
-}
 .menu h1 {
   font-family: "Shrikhand", Arial, sans-serif;
 }
 
-body, .btn {
+body, button {
   font-family: "Roboto", Arial, sans-serif;
 }
 
